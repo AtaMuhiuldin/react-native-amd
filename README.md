@@ -5,7 +5,12 @@ amd test module
 ## Installation
 
 ```sh
-npm install react-native-amd
+Step 01:Add following in your package.json file 
+
+"react-native-amd":"git://github.com/AtaMuhiuldin/react-native-amd.git"
+
+Step 02: Run command `yarn install`
+
 ```
 
 ## Usage
