@@ -20,3 +20,8 @@ const Amd = NativeModules.Amd
 export function multiply(a: number, b: number): Promise<number> {
   return Amd.multiply(a, b);
 }
+
+
+export function subtract(a: number, b:number): Promise<number> {
+  return Amd.subtract(a, b);
+}

@@ -30,5 +30,10 @@ public class AmdModule extends ReactContextBaseJavaModule {
         promise.resolve(a * b);
     }
 
+    @ReactMethod
+    public void subtract(int a, int b, Promise promise) {
+        promise.resolve(a - b);
+    }
+
     public static native int nativeMultiply(int a, int b);
 }
