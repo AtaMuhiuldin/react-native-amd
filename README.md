@@ -16,6 +16,7 @@ import { multiply } from "react-native-amd";
 // ...
 
 const result = await multiply(3, 7);
+const result = await subtract(3, 7);
 ```
 
 ## Contributing
